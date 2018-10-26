@@ -13,7 +13,7 @@ docker run --name xhgui --rm -it -p "8000:80" --link mongo tsari/xhgui
 
 ```
 # Use a non-docker mongo db
-docker run --name xhgui--rm -it -p "8000:80" -e "XHGUI_MONGO_URI=some-mongo-host:27017" tsari/xhgui
+docker run --name xhgui --rm -it -p "8000:80" -e "XHGUI_MONGO_URI=some-mongo-host:27017" tsari/xhgui
 ```
 
 
